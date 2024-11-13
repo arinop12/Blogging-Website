@@ -1,0 +1,100 @@
+/*For Blog Header*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.container{
+    list-style: none;
+    padding: 8px;
+    margin: 0%;
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.headerIcon{
+    padding-right: 30%; 
+}
+
+.searchA{
+    border-radius: 20px;
+    height: 30px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid rgb(235, 235, 235);
+    position: relative;
+}
+
+.headerA{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    left: 95%;
+}
+
+.sidebar{
+    background-color: white;
+    box-shadow: 0 10px 5px black;
+    height: 94vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.sidebarExt{
+    padding-top: 100px;
+}
+
+.sidebarCenterAlign{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.sidebarCenterAlign:hover{
+    background-color: rgba(226, 223, 223, 0.418);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebarCenterAlign .A{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.sidebarIconList{
+    padding: 12px 12px 0 32px;
+}
+
+.create{
+    align-items: center;
+    border-radius: 32px;
+    display: flex;
+    height: 40px;
+    justify-content: left;
+    margin-bottom: 24px;
+    margin-left: 32px;
+    margin-top: 12px;
+    min-width: 98px;
+    border-radius: 30px;
+    height: 35px;
+    width: 100px;
+}
+
+button :hover{
+    cursor: pointer;
+}                    
+
+.sideBarClick :hover{
+    cursor: pointer;
+}
